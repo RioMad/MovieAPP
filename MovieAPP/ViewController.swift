@@ -2,7 +2,7 @@
 //  ViewController.swift
 //  MovieAPP
 //
-//  Created by Anwin Km - Technology Associate-Mobile Development on 06/10/25.
+//  Created by Anwin Km  on 06/10/25.
 //
 
 import UIKit
@@ -13,7 +13,4 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
-
-
 }
-

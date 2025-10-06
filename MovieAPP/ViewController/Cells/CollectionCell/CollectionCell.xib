@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="23504" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23506"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="CollectionCell" id="gTV-IL-0wX" customClass="CollectionCell" customModule="MovieAPP" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="276" height="175"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="276" height="175"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eCx-SN-52X">
+                        <rect key="frame" x="0.0" y="0.0" width="276" height="175"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="2" translatesAutoresizingMaskIntoConstraints="NO" id="UqN-nt-Ijc">
+                                <rect key="frame" x="0.0" y="0.0" width="276" height="175"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="UqN-nt-Ijc" firstAttribute="leading" secondItem="eCx-SN-52X" secondAttribute="leading" id="7ya-3c-XKJ"/>
+                            <constraint firstItem="UqN-nt-Ijc" firstAttribute="centerY" secondItem="eCx-SN-52X" secondAttribute="centerY" id="Kw6-3r-cvP"/>
+                            <constraint firstAttribute="trailing" secondItem="UqN-nt-Ijc" secondAttribute="trailing" id="QH4-Rb-ZBP"/>
+                            <constraint firstItem="UqN-nt-Ijc" firstAttribute="top" secondItem="eCx-SN-52X" secondAttribute="top" id="jQO-Vb-PtJ"/>
+                            <constraint firstItem="UqN-nt-Ijc" firstAttribute="centerX" secondItem="eCx-SN-52X" secondAttribute="centerX" id="qNI-rU-Zet"/>
+                            <constraint firstAttribute="bottom" secondItem="UqN-nt-Ijc" secondAttribute="bottom" id="zHh-zN-wcE"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="eCx-SN-52X" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="Snl-cF-WH1"/>
+                <constraint firstItem="eCx-SN-52X" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="mEI-he-Cdl"/>
+                <constraint firstAttribute="bottom" secondItem="eCx-SN-52X" secondAttribute="bottom" id="ycA-7D-AUF"/>
+                <constraint firstAttribute="trailing" secondItem="eCx-SN-52X" secondAttribute="trailing" id="zhR-Uy-mlI"/>
+            </constraints>
+            <size key="customSize" width="276" height="175"/>
+            <connections>
+                <outlet property="imgMovie" destination="UqN-nt-Ijc" id="BWN-8r-XY6"/>
+            </connections>
+            <point key="canvasLocation" x="212.21374045801525" y="63.028169014084511"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="2" width="800" height="450"/>
+    </resources>
+</document>
