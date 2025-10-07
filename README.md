@@ -10,4 +10,5 @@ Hope you are doing well.
 
   * Favorites: The table view favorites feature is implemented, but enabling it may affect the `didSelect` scenario (note: the feature is implemented but currently hidden).
   *  Video Stream: A custom video player has been added. However, since the API returns multiple playlists, the implementation was changed to use YouTube streaming instead. The custom player file is still included in the repository.
+  *  Please try to run in REAL DEVICE-other wise may be image get issue
 
